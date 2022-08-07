@@ -139,7 +139,7 @@ jobs:
       # Restore from cache
       - restore_cache:
           keys: [backend-scan]
-      # Your job code here
+      # Your job code here.
       - run:
           name: Scan back-end
           command: |
